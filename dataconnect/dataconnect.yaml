@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "studentteacherappointmentbooking"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "studentteacherappointmentbooking-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

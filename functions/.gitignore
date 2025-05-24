@@ -1,0 +1,29 @@
+# Python bytecode
+__pycache__/
+
+# Python virtual environment
+venv/
+*.local
+
+# Firebase and environment files
+firebase-debug.log
+firebase.json.old
+.firebaserc
+.env
+.env.local
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Python (if using Firebase Functions)
+functions/__pycache__/
+functions/venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db

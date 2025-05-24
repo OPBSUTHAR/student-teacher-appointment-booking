@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student-Teacher Booking</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"></script>
+</head>
+<body>
+  <!-- Login/Register Form -->
+  <div id="auth-container">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <button onclick="register()">Register</button>
+  </div>
+
+  <!-- Role-Based Dashboards (Hidden Initially) -->
+  <div id="admin-dashboard" class="hidden"></div>
+  <div id="teacher-dashboard" class="hidden"></div>
+  <div id="student-dashboard" class="hidden"></div>
+
+  <script src="auth.js"></script>
+  <script src="admin.js"></script>
+  <script src="teacher.js"></script>
+  <script src="student.js"></script>
+</body>
+</html>
