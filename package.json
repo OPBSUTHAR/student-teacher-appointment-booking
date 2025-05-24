@@ -2,40 +2,21 @@
   "dependencies": {
     "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
     "firebase": "^11.8.1"
-  },
-  "devDependencies": {
-    "@firebasegen/cli": "^0.1.0",
-    "@firebasegen/cli-plugin-vite": "^0.1.0",
-    "@firebasegen/cli-plugin-vite-react": "^0.1.0",
-    "@firebasegen/cli-plugin-vite-svelte": "^0.1.0",
-    "@firebasegen/cli-plugin-vite-vue": "^0.1.0",
-    "@firebasegen/cli-plugin-vite-vue2": "^0.1.0",
-    "firebase-tools": "^11.8.1"
-  },
-  "scripts": {
-    "build": "firebasegen build",
-    "dev": "firebasegen dev",
-    "deploy": "firebase deploy"
-  },
-  "engines": {
-    "node": ">=16.0.0"
-  },
-  "private": true,
-  "name": "firebasegen-app",
-  "version": "0.1.0",
-  "description": "A Firebase application generated with FirebaseGen",
-  "license": "MIT",
-  "devDependencies": {
-    "vite": "^6.3.5"
   }
 }
+
 {
   "name": "student-teacher-appointment",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo 'Building application...' && exit 0"
+    "build": "vite build",
+    "dev": "vite",
+    "deploy": "firebase deploy"
   },
   "dependencies": {
-    "firebase": "^9.0.0"
+    "firebase": "^9.6.10"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
   }
 }
