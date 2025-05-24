@@ -10,3 +10,13 @@
     "vite": "^6.3.5"
   }
 }
+{
+  "name": "student-teacher-appointment",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Building application...' && exit 0"
+  },
+  "dependencies": {
+    "firebase": "^9.0.0"
+  }
+}
