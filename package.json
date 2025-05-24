@@ -2,5 +2,8 @@
   "dependencies": {
     "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
     "firebase": "^11.8.1"
+  },
+  "scripts": {
+    "build": "echo 'No build step required' && exit 0"
   }
 }
